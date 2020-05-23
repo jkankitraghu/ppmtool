@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.codeblog.ppmapi.exception.ProjectIsException&apos; to &apos;ProjectIdException&apos;&#x0D;&#x0A;- Original project: &apos;ppmapi&apos;&#x0D;&#x0A;- Original element: &apos;in.codeblog.ppmapi.exception.ProjectIsException&apos;&#x0D;&#x0A;- Renamed element: &apos;in.codeblog.ppmapi.exception.ProjectIdException&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ProjectIsException&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.codeblog.ppmapi.exception{ProjectIsException.java[ProjectIsException" matchStrategy="1" name="ProjectIdException" qualified="false" references="true" similarDeclarations="false" stamp="1586954322073" textual="false" version="1.0"/>
+</session>

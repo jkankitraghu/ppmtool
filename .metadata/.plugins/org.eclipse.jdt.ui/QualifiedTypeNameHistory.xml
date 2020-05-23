@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.persistence.PrePersist"/>
+<fullyQualifiedTypeName name="javax.persistence.PreUpdate"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="in.codeblog.ppmapi.repository.ProjectRepository"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="in.codeblog.ppmapi.service.ProjectService"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Size"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonFormat"/>
+<fullyQualifiedTypeName name="javax.validation.Valid"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.springframework.validation.FieldError"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="in.codeblog.ppmapi.service.MapValidationErrorService"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.request.WebRequest"/>
+<fullyQualifiedTypeName name="in.codeblog.ppmapi.exception.ProjectIdExceptionResponse"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="in.codeblog.ppmapi.domain.Project"/>
+<fullyQualifiedTypeName name="in.codeblog.ppmapi.exception.ProjectIdException"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+</qualifiedTypeNameHistroy>
