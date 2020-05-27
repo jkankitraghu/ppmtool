@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,5 +34,13 @@ public class BacklogController {
     	ProjectTask projecTask1=projectTaskService.addProjectTask(backlog_id, projectTask);
     	return new ResponseEntity<ProjectTask>(projecTask1,HttpStatus.CREATED);
     }
-	
+	@GetMapping("/{backlog_id}")
+    public Iterable<ProjectTask> getProjectBacklog(@PathVariable String backlog_id){
+		return projectTaskService.findBacklogById(backlog_id);
+	}
+	@GetMapping("/{backlog_id}/{pt_id}")
+	public ResponseEntity<?> getProjctTask(@PathVariable String backlog_id, @PathVariable String pt_id){
+		ProjectTask projectTask=projectTaskService.findPTByProjectSequence(backlog_id, pt_id);
+		return new ResponseEntity<ProjectTask>(projectTask,HttpStatus.OK);
+	}
 }
